@@ -1,4 +1,9 @@
 """This is the main driver module for APA102 LEDs"""
+import sys
+
+sys.path.append("./APA102_Pi/Adafruit_Python_GPIO")
+
+
 import Adafruit_GPIO as GPIO
 import Adafruit_GPIO.SPI as SPI
 from math import ceil
